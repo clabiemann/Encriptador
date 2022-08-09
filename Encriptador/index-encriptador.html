@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="UTF-8">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style-encriptador.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Logo.png" alt="logo de Alura">
+        </div>
+    </header>
+    <main>
+        <section class="area1">
+            <div>
+                <textarea class="texto_a_encriptar" cols="60" rows="15" placeholder="Ingrese aquí el texto a encriptar / desencriptar"></textarea>
+            </div>
+            <div class="advertencia">
+                <img class ="vector" src="Vector.png" alt="signo admiración">
+                <p class="texto_advertencia">Solamente letras minúsculas y sin acentos</p>
+            </div>
+            <div class="botones">
+                <input class="encriptar" type="button" value="Encriptar">
+                <input class="desencriptar" type="button" value="Desencriptar">
+                <input class="limpiar" type="button" value="Limpiar">
+            </div>
+        </section>
+        <section class="area2">
+            <img class="dibujo" src="Muñeco.png" alt="dibujo">
+            <p class="texto_area2">No se encuentra ningún mensaje</p>
+            <h3 class="titulo_encriptado"></h3>
+            <p class="texto_encriptado"></p>
+            <input class="copiar" type="button" value="Copiar">
+        </section>
+    </main>   
+     
+    <footer>
+        <p>&copy Copyright Alura Latam - 2022</p>
+    </footer>
+
+    <script src="js-encriptador.js"></script>
+    
+</body>
+</html>
